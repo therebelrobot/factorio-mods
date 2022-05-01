@@ -1,0 +1,9 @@
+{
+	"name": "micro-machines",
+	"author": "Kryzeth",
+	"version": "2.0.5",
+	"title": "Micro Machines Mod",
+	"description": "Micro miniature versions of assemblers, electric furnaces, etc. Full integration with all of Bobs mods and ShinyBobGFX, Mini Machines, Factorio Extended Plus, Gotlag's Electric Furnaces, AAI Industry, Krastorio, Industrial Revolution, and Fantario. (independently, not necessarily simultaneously)",
+	"factorio_version": "1.1",
+	"dependencies": ["base >= 0.18.27", "stdlib", "? mini-machines", "? boblogistics", "? bobmining", "? bobassembly", "? bobmodules", "? bobplates >= 0.18.9", "? bobwarfare", "? aai-industry", "? ShinyBobGFX", "? ShinyAngelGFX", "? angelspetrochem >= 0.9.4", "? FactorioExtended-Plus-Machines", "? FactorioExtended-Plus-Module", "? Fantario", "? FastFurnaces", "? Krastorio2", "? MicroFurnaceWipMod", "? modmash"]
+}

@@ -1,0 +1,296 @@
+
+{
+  "mods":
+  [
+
+    {
+      "name": "zk-lib",
+      "enabled": true
+    },
+
+    {
+      "name": "AfraidOfTheDark",
+      "enabled": true
+    },
+
+    {
+      "name": "auto-research",
+      "enabled": true
+    },
+
+    {
+      "name": "BigBags",
+      "enabled": true
+    },
+
+    {
+      "name": "bobenemies",
+      "enabled": true
+    },
+
+    {
+      "name": "bobinserters",
+      "enabled": true
+    },
+
+    {
+      "name": "boblibrary",
+      "enabled": true
+    },
+
+    {
+      "name": "Bottleneck",
+      "enabled": true
+    },
+
+    {
+      "name": "bullet-trails",
+      "enabled": true
+    },
+
+    {
+      "name": "combat-mechanics-overhaul",
+      "enabled": true
+    },
+
+    {
+      "name": "Crafting_Speed_Research",
+      "enabled": true
+    },
+
+    {
+      "name": "creative-mod",
+      "enabled": true
+    },
+
+    {
+      "name": "Darkstar_utilities",
+      "enabled": true
+    },
+
+    {
+      "name": "DiscoScience",
+      "enabled": true
+    },
+
+    {
+      "name": "factorio-reach",
+      "enabled": true
+    },
+
+    {
+      "name": "FNEI",
+      "enabled": true
+    },
+
+    {
+      "name": "helmod",
+      "enabled": true
+    },
+
+    {
+      "name": "inbuilt_lighting",
+      "enabled": true
+    },
+
+    {
+      "name": "qol_research",
+      "enabled": true
+    },
+
+    {
+      "name": "RenaiTransportation",
+      "enabled": true
+    },
+
+    {
+      "name": "SchallMachineScaling",
+      "enabled": true
+    },
+
+    {
+      "name": "Waterfill_v17",
+      "enabled": true
+    },
+
+    {
+      "name": "bobequipment",
+      "enabled": true
+    },
+
+    {
+      "name": "bobores",
+      "enabled": true
+    },
+
+    {
+      "name": "bobtech",
+      "enabled": true
+    },
+
+    {
+      "name": "MoreScience",
+      "enabled": true
+    },
+
+    {
+      "name": "pycoalprocessing",
+      "enabled": true
+    },
+
+    {
+      "name": "UltraFastMagnecticInserterExtra",
+      "enabled": true
+    },
+
+    {
+      "name": "underground-pipe-pack",
+      "enabled": true
+    },
+
+    {
+      "name": "upgrade-planner-next",
+      "enabled": true
+    },
+
+    {
+      "name": "bobplates",
+      "enabled": true
+    },
+
+    {
+      "name": "pyfusionenergy",
+      "enabled": true
+    },
+
+    {
+      "name": "ScienceCostTweakerM",
+      "enabled": true
+    },
+
+    {
+      "name": "bobassembly",
+      "enabled": true
+    },
+
+    {
+      "name": "bobelectronics",
+      "enabled": true
+    },
+
+    {
+      "name": "bobgreenhouse",
+      "enabled": true
+    },
+
+    {
+      "name": "boblogistics",
+      "enabled": true
+    },
+
+    {
+      "name": "bobmining",
+      "enabled": true
+    },
+
+    {
+      "name": "bobpower",
+      "enabled": true
+    },
+
+    {
+      "name": "bobrevamp",
+      "enabled": true
+    },
+
+    {
+      "name": "bobwarfare",
+      "enabled": true
+    },
+
+    {
+      "name": "MoreScience-ScienceCostTweakerExtension",
+      "enabled": true
+    },
+
+    {
+      "name": "pyhightech",
+      "enabled": true
+    },
+
+    {
+      "name": "pyindustry",
+      "enabled": true
+    },
+
+    {
+      "name": "angelsrefining",
+      "enabled": true
+    },
+
+    {
+      "name": "bobmodules",
+      "enabled": true
+    },
+
+    {
+      "name": "bobvehicleequipment",
+      "enabled": true
+    },
+
+    {
+      "name": "pyrawores",
+      "enabled": true
+    },
+
+    {
+      "name": "angelspetrochem",
+      "enabled": true
+    },
+
+    {
+      "name": "dark-matter-replicators-18",
+      "enabled": true
+    },
+
+    {
+      "name": "pypetroleumhandling",
+      "enabled": true
+    },
+
+    {
+      "name": "SpaceMod",
+      "enabled": true
+    },
+
+    {
+      "name": "angelsaddons-storage",
+      "enabled": true
+    },
+
+    {
+      "name": "angelssmelting",
+      "enabled": true
+    },
+
+    {
+      "name": "pyalienlife",
+      "enabled": true
+    },
+
+    {
+      "name": "angelsbioprocessing",
+      "enabled": true
+    },
+
+    {
+      "name": "CompressedFluids",
+      "enabled": true
+    },
+
+    {
+      "name": "PyCoalTBaA",
+      "enabled": true
+    }
+  ]
+}

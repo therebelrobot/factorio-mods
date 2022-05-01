@@ -1,0 +1,24 @@
+{
+  "name": "dark-matter-replicators-18",
+  "version": "1.1.2",
+  "factorio_version": "1.1",
+  "title": "Dark Matter Replicators .18+",
+  "author": "Honktown for .18+ (see authors.txt for more details",
+  "homepage": "https://mods.factorio.com/mods/TempiDrachen/dark-matter-replicators/discussion",
+  "description": "This mod adds replicators, machines which can produce items using nothing but electricity. Lower tiers of replicators are the most energy efficient and can essentially transform depleted, empty land into a resource. Higher tier replicators can simplify production lines or otherwise act as a convenience. Tier 1 replicators can replace depleted mining drills, allowing your expansion to be for growth rather than necessity.",
+  "dependencies": ["base",
+					"? aai-industry >= 0.3.17",
+					"? Bio_Industries >= 0.17.21",
+					"? Factorissimo2 >= 2.3.3",
+					"? Yuoki >= 0.7.82",
+					"? bobenemies >= 0.17.6",
+					"? bobelectronics >= 0.17.5",
+					"? boblogistics >= 0.17.9",
+					"? bobmodules >= 0.17.4",
+					"? bobores >= 0.17.1",
+					"? bobplates >= 0.17.7",
+					"? bobrevamp >= 0.17.4",
+					"? bobwarfare >= 0.17.8",
+					"? space-exploration"
+				]
+}

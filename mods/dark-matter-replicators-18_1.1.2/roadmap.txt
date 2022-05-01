@@ -1,0 +1,23 @@
+0.7.14+ - Eventual Future Things
+	Use overrides or something to reorder the science packs in the replication selector (may need to change how overrides work a bit)
+	Fix the missing prerequisites in some of the Bob mod replications
+	Add replication of OmniMatter and a recipe for getting tenemut from omnite
+	Add compatibility with the PyMods
+	Add replication of Darkstar Utilities ores and items once that mod works with Factorio 0.17
+	Make it possible for the user to configure the power drain of replicators
+0.8.0 - Graphical Polish
+	Fix a bug where replication icons for items with high resolution icons only show the upper left corner of the item's icon
+	Make it so that replicators have shadows
+	Make it so that the replicators go dark when they turn off
+	Make a series of color masks which can be used for replicators, the replication lab and the repltech borders
+	Create a new graphic for the replication recipes category
+	Create a function for automatically creating a replication variable for a crafting category based on a machine
+	Add a text file containing instructions on how to add replications as part of another mod
+0.8.1 - Replication-based Scenario
+	Create a scenario in which no ores are generated but the player starts with some electrical grid items, some replicators and a few appropriate technologies
+	Create a series of five increasingly powerful dark energy reactors which produce energy (and pollution) from nothing (this might be a separate mod)
+	Create a mod settings file for the scenario and include a message at the start of the scenario stating that it is meant to be played with those settings
+0.8.2
+	Have the cost calculator calculate costs for every crafting difficulty instead of just normal and give replications different costs for different difficulties
+	Make complex chemicals into their own replication category
+	Fix a bug where the non-ore repltechs appear at the beginning of the technology list instead of at the end

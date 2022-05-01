@@ -1,0 +1,1 @@
+appmod.blacklist['omnimutator'] = true

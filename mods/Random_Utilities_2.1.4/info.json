@@ -1,0 +1,19 @@
+{
+  "name": "Random_Utilities",
+  "version": "2.1.4",
+  "factorio_version": "1.1",
+  "title": "Random utilities",
+  "author": "WipMod",
+  "contact": "https://t.me/wipmod",
+  "homepage": "mods.factorio.com/mods/WipMod/Random_Utilities",
+  "description": "Just Some Utilities",
+  "dependencies": [
+    "?ZZZTweaks",
+    "?ZZZCompatibility",
+    "?angelsaddons-warehouses",
+    "?angelsaddons-pressuretanks",
+    "?Krastorio2",
+    "?space-exploration",
+    "?miniloader >= 1.12.3"
+  ]
+}

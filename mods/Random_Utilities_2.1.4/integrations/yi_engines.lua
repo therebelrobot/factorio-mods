@@ -1,0 +1,9 @@
+appmod.blacklist['ye_dnasplicer'] = true
+appmod.blacklist['ye_overheater'] = true
+appmod.blacklist['ye_emotor_m'] = true
+appmod.blacklist['y-mwater-pump'] = true
+appmod.blacklist['ye_wpump_m'] = true
+appmod.blacklist['y-quantrinum-reactor'] = true
+appmod.blacklist['y-electric-air-heater'] = true
+appmod.blacklist['ye_canmachine'] = true
+appmod.blacklist['ye_mfheatmotor_m'] = true

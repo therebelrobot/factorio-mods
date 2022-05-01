@@ -1,0 +1,1 @@
+appmod.blacklist['industrial-furnace'] = true

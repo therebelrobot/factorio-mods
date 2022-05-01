@@ -1,0 +1,62 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: June 12, 2021
+  Bugfixes:
+    - Fixed load error with Krastorio 2 and GotLag's Electric Furnaces mod.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: May 19, 2021
+  Bugfixes:
+    - Fixed load error with Industrial Revolution 2. Fully featured compatibility tbd.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: May 18, 2021
+  Bugfixes:
+    - Added ModMash as an optional dependency to force load order.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: May 17, 2021
+  Minor Features:
+    - Added compatibility with ModMash.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: May 16, 2021
+  Bugfixes:
+    - Fixed and improved compatibility with Fantario.
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: November 26, 2020
+  Info:
+    - Updated to Factorio v1.1.x
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: September 28, 2020
+  Bugfixes:
+    - Fixed compatibility with Krastorio 2
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: September 26, 2020
+  Bugfixes:
+    - Fixed load error with WipMod's Micro Furnaces.
+      Their furnaces will take priority over the furnaces from this mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: September 25, 2020
+  Bugfixes:
+    - Fixed micro miner not outputting ores.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: September 25, 2020
+  Info:
+    - Initial Release of Micro Machines, using code borrowed from my Mini Machines mod.
+      Many thanks to Kirazy again for providing the scalable graphics code used in both mods.
+      Micro Machines concept based on suggestions by Alexs and salariauchiha.
+    - Currently includes micro assembler, furnace, miner, beacon, and radar.
+      Micro machines are currently balanced towards being expensive, but powerful.
+      By default, they are twice as expensive to craft, with the same stats as the original.
+    - This mod was designed as a complementary mod to Mini Machines, but can work without it.
+      It has not yet been tested with most other mods for compatibility.
+      Tested working in vanilla, bobs, fxp, and fantario. 
+      Compatibility with other mods should be possible if requested
+	  
+

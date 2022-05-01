@@ -1,0 +1,462 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.1.4
+Date: 17/10/2021
+  Changes:
+    - updated compatibility with juicy-mods
+    - updated compatibility with micro furnace
+    - reordered code part 1/?
+  Added:
+    - missing settings localization
+---------------------------------------------------------------------------------------------------
+Version: 2.1.3
+Date: 10/07/2021
+  Added:
+    - added compatibility with SmallFurnaceWipMod
+  Changes:
+    - Changed some settings description to give more info
+  Bugfixes:
+    - Fixed Space exploration compatibility
+---------------------------------------------------------------------------------------------------
+Version: 2.1.2
+Date: 02/04/2021
+  Added:
+    - added LiquifyScienceandLab integrations
+    - juicy mod setting description
+  Changes:
+    - removed IF fuel from forced fuel (now on Infinite fuel mod by default)
+    - new thumbnail
+    - moved angel integration to mach the new mods
+  Bugfixes:
+    - fixed juicy mods setting name
+---------------------------------------------------------------------------------------------------
+Version: 2.1.1
+Date: 10/02/2021
+  Added:
+    - added "ru-force-equipment-categories" for "spidertrontiers" with "bobvehicleequipment"
+  Changes:
+    - now "related_underground_belt" is indicated in the belt
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 26/01/2021
+  Added:
+    - settings to add fuel to various entity in the game
+    - force chemical fuel
+    - bob integration toggle
+    - krastorio2 integration toggle
+  Changes:
+    - when disabling chemical input output even bob chemical plant will be disabled
+    - when disabling oil refinery input output even bob oil refinery will be disabled
+    - added compatibility with modmashsplinterairpurifier
+    - Updated Wire Shortcut Script (If you need only this USE THE ORIGINAL!)
+  Bugfixes:
+    - omnimatter won't work with generalm input output enabled if the machine lever is higher than 5
+    - technology image
+    - basic/medium/big/behemoth filtered miniloader won't appear in game
+  Notes:
+    - if you disable the integration but enable another setting that work with that mod (not exclusive) the mod will be modified to, for example enabling force chemical fuel krastorio2 will be influenced even with krastorio2 integrations turned off
+---------------------------------------------------------------------------------------------------
+Version: 2.0.9
+Date: 30/11/2020
+  Added:
+    - juicy mods storage size edit
+    - juicy mods fluid storage size edit
+    - added 8 extra miniloader with miniloader mod (they will disappear if you remove the miniloader mod) (more-miniloader original code)
+    - deadlock miniloader and compacter with deadlock beltboxes loaders mod (they will disappear if you remove the miniloader mod) (more-miniloader original code)
+  Changes:
+    - Big logistics speed 150 > 180
+    - Behemoth logistic speed 2000 > 360 (2 big belt)
+    - behemoth logistic will allow speed change in settings 360 / 640 / 1280
+    - changed maxium mine/reach distance 1000 > 100000
+    - enabling logistics will no more change the vanilla express belt speed (60 > 45)
+  Notes:
+    - the belt speed was decreased due to factorio limitation
+---------------------------------------------------------------------------------------------------
+Version: 2.0.8
+Date: 04/10/2020
+  Added:
+    - basic / medium / big / behemoth loader x1
+    - mini equipment setting
+    - infinite repair pack
+  Changes:
+    - basic / medium / big underground belt distance rebalance
+  Bugfixes:
+    - big / behemoth splitter west animation glitch
+    - basic / medium / big beacon shadow 
+---------------------------------------------------------------------------------------------------
+Version: 2.0.7
+Date: 27/10/2020
+  Added:
+    - basic / medium / big / behemoth loader x1
+  Bugfixes:
+    - crash with krastorio 2 installer and boiler enabled
+    - crash with MicroFurnaceWipMod >= 1.0.7
+---------------------------------------------------------------------------------------------------
+Version: 2.0.6
+Date: 26/10/2020
+  Changes:
+    - moved every item to RU category
+    - changed boiler / steam engine ratio
+    - changed boiler / steam engine consuption
+    - changed boiler / steam engine effectivity
+  Notes:
+    - With space exploration postprocess installed effectivity on boiler and steam engine is disabled
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: 23/10/2020
+  Bugfixes:
+    - some issues with krastorio 2 / aai-industry
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 22/10/2020
+  Added:
+    - added an option to remove productivity limitation from any module that has productivity in it
+    - AAI industry boiler compatibility (toggle in the next update or a bit later)
+    - custom tab to give a new order to the items (just testing all items will be moved in future)
+  Changes:
+    - rebalanced substation range
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 19/10/2020
+  Added:
+    - Depencies ZZZTweaks (obligatory)
+    - Depencies ZZZCompatibility (optional)
+    - Added character speed modifier
+    - Added Junction Pole
+  Changes:
+    - rebalanced rubstation range
+  Bugfixes:
+    - steam engine craft not using proper items
+    - transport belt upgrade planner
+    - boiler upgrade planner
+    - transport belt name
+    - logistic technology name
+    - boiler technology name
+    - steam engine technology name
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 08/10/2020
+  Bugfixes:
+    - Fixed thumbnail
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 07/10/2020
+  Bugfixes:
+    - Fixed inserter compatibility with bobinserter
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 04/10/2020
+  Added:
+    - Basic / Medium / Big / Behemoth Transport Belt
+    - Basic / Medium / Big / Behemoth Splitter
+    - Basic / Medium / Big / Behemoth Underground Belt
+    - Basic / Medium / Big / Behemoth Inserter
+    - Basic / Medium / Big / Behemoth Stack Inserter
+    - Basic / Medium / Big / Behemoth Boiler
+    - Basic / Medium / Big / Behemoth Steam Engine
+    - Beacon Productivity Setting (global)
+    - Some angel warehouse settings
+    - Some krastorio2 container settings
+    - hp control
+    - hp recovery control
+    - Behemoth Quick Start 
+    - Spidetron Quick Start
+
+  Changes:
+    - moved scripts from data-final-fixes to settimg-mod-modifier ecc...
+    - recipes and technolgies moved from hidden = "false" to hidden = "true"
+    - when logistic setting is >= nothing then express transport belt speed = 60 (vanilla 45)
+    - basic setting moved from Behemoth to Big
+    - removed some angel warehouse settings
+    - removed some krastorio2 container settings
+    - temporany disabled "cheaty recipe" and "alternative recipe"
+    - changed botspeed script, now affect every bot even modded one
+    - partial settings rescript
+    - limited vanilla pole ranger to provent crash for value too high
+    - removed tree collision box reduced
+    - reworked italian traslation (only settings)
+    - quickstart item amount
+    - quick start script
+    - new thumbmail
+
+  Bugfixes:
+    - alternative offshore pump recipe
+    - walkable beacons recipe still appear when the value is lower than behemoth (downgrade)
+    - walkable vanilla beacon give back vanilla beacon when broken
+    - big lamp recipe cannot be unlocked
+    - quick start on single player
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.5
+Date: 25/08/2020
+  Changes:
+    - updated stack size multiplier
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.4
+Date: 02/08/2020
+  Changes:
+    - structure of alternative recipes
+    - structure of cheaty recipes
+
+  Bugfixes:
+    - offshore pump recipe disappear
+    - space-exploration/Krastorio2/Random_Utilities armor problem
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.2
+Date: 23/07/2020
+  Added:
+    - if space exploration is present change module slot in RU beacon
+
+  Bugfixes:
+    - factorio extended plus compatibility
+
+  Changes:
+    - solar panel recipes
+    - accumulator recipes
+    - blueprint ".next_upgrade"
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 16/07/2020
+  Added:
+    - walkable beacon upgrade
+    - walkable beacon settings
+
+  Changes:
+    - Basic; Medium; Big beacons graphic
+
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 11/07/2020
+  Bugfixes:
+    - changelog fixed
+    - little conflict fix
+
+  Changes:
+    - setting ru-Assembler-liquid-Imput-Output (default "true" > "false")
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.9
+Date: 11/07/2020
+  Bugfixes:
+    - multiplayer connection issue
+    - space exploration conflict
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.8
+Date: 09/07/2020
+  Bugfixes:
+    - big lamp technology
+
+  Added:
+    - Substations compatibility with upgrade planner
+    - Solar panels compatibility with upgrade planner
+    - Lamps compatibility with upgrade planner
+    - Accumulators compatibility with upgrade planner
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.7
+Date: 06/07/2020
+  Bugfixes:
+    - Big, Behemoth substation name (en)
+
+  Changes:
+    - Substations colors
+    - Solar panels colors
+    - Beacons colors
+    - Accumulators colors
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.6
+Date: 05/07/2020
+  Bugfixes:
+    - Big substation name
+    - issue with config in multiplayer mode
+
+  Changes:
+    - beacon energy (basic 24MW > 25MW) (Medium 48MW > 125MW) (Big 96MW > 625MW)
+
+  -Added:
+    - Behemoth Substation (range 64, supply area 128x128[64], HP 500)
+    - Basic Solar Panel (production 480kW, HP 300)
+    - Medium Solar Panel (production 3840kW, HP 400)
+    - Big Solar Panel (production 30.72MW, HP 500)
+    - Behemoth Solar Panel (production 245.76MW, HP 600)
+    - Basic Accumulator (capacity 40MJ, input/output 2.4MW, HP 300)
+    - Medium Accumulator (capacity 320MJ, input/output 19.2MW, HP 450)
+    - Big Accumulator (capacity 2.65GJ, input/output 153.6MW, HP 600)
+    - Behemoth Accumulator (capacity 20.48GJ, input/output 1.2288GW, HP 750)
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.5
+Date: 25/06/2020
+  Bugfixes:
+    - when breaking a beacon won't give back the correct beacon
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 21/06/2020
+  Changes:
+    - Basic beacon dimension (3x3 to 4x4)
+    - Medium beacon dimension (3x3 to 5x5)
+    - Big beacon dimension (3x3 to 6x6)
+
+  Added:
+    - Big Substation (range 64, supply area 84x84[42], HP 450)
+    - Bot speed settings (if you want only this use BotSpeed, it's the original!)
+
+  Updated:
+    - wire shortcut graphic
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 18/06/2020
+  Bugfixes:
+    - missing name (english)
+    - changelog
+    - Medium lamp give basic lamp when broken
+    - Bugfixes some settings name
+
+  Added:
+    - Medium Beacon (supply area 24; consuption 48MW; module slot 4; effects "consumption", "speed", "pollution", "productivity")
+    - Big Beacon (supply area 48; consuption 96MW; module slot 5; effects "consumption", "speed", "pollution", "productivity")
+    - Big lamp (light = 540 block)
+    - Medium beacon technology
+    - Big beacon technology
+    - Big Lamp technology
+
+  Changes:
+    - Changes technology ru-advanced-effect-transmission to ru-advanced-effect-transmission-a
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 17/06/2020
+  Bugfixes:
+    - beacon for 0.18.30
+    - changelog date
+
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 11/06/2020
+  Updated:
+    - stack multiplier code
+    - pipe passthrought code
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: 13/05/2020
+  Bugfixes:
+    - wire shortcuts
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 15/04/2020
+  Bugfixes:
+    - lamp setting
+    - mod structure
+
+  Added:
+    - basic beacon : supply area 12; consuption 24MW; module slot 4; effects "consumption", "speed", "pollution", "productivity"
+    - beacon config
+    - medium lamp : range 320; consuption 40kW
+
+  Changes:
+    - basic lamp : range 256>192; consuption 5kW>20kW
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 08/04/2020
+  Bugfixes:
+    - Removed Banane (test) from armor starter kit
+    - old changelog
+    - name of the config for electric pole range
+    - pole setting name
+    - lamp setting name
+    - substation setting name
+
+  Added:
+    - Compatibility with Angel Pressure tank
+    - compatibility with Angel Warehouse
+    - config to change storage size angel warehouse
+    - config to change storage size Krastorio 2 container
+    - config to change angel pressure tank capacity
+    - config to change krastorio fluid storage capacity
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 03/04/2020
+  Bugfixes:
+    - WireShortcut dependencies
+
+  Added:
+    - Compatibility with Krastorio 2
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 03/04/2020
+  Added:
+    - added Assembler pipe Passthrought (if you want only this use assembler-pipe-passthrough, it's the original!)
+    - added Wire Shortcuts (if you want only this use WireShortcuts, it's the original!)
+    - added Wire Vanilla Pole Reach/Supply area range (if you want only this use PoleRange, it's the original!)
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 30/03/2020
+  Added:
+    - ru-medium-substation (range 64, supply area 42x42[21], HP 200)
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 29.03.2020
+  Added:
+    - {Setting} Disable crafting Time
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 23/03/2020
+  Changes:
+    - Changes stack multiplier script (if you want only this use Noxys StackSizeMultiplier, it's the original!)
+
+  Added:
+    - added 0 crafting time setting (if you want only this use NoCraftingTime, it's the original!)
+    - added 0 crafting time script (if you want only this use NoCraftingTime, it's the original!)
+    - {Setting} Disable crafting Time
+    - {Setting} Item Stack Size Logistic Robot
+    - {Setting} Item Stack Size Construction Robot
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 23/03/2020
+  Changes:
+    - Bugfixes stack multiplier
+    - Bugfixes other settings
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 23/03/2020
+  Changes:
+    - ru-basic-substation supply area 10x10[5] > supply area 12*12[6]
+    - Basic_Substation setting to ru-substation
+
+  Added:
+    - Inventory size setting
+    - stack size settings
+    - reach distance settings
+    - Mining reach settings
+    - Mining speed settings
+    - collision box tree settings
+    - Powerful Lamp Setting settings
+    - Quick start settings
+    - Quick Start Modular Armor settings
+    - Basic Lamp (light = 256 block)
+    - Lamp setting
+    - Lamp technology
+    - Lingua Italiana (contact me on https://t.me/wipmod to translate in other language)
+    - Compacitbility with "Power Armor MK3" (contact me on https://t.me/wipmod to make your mod compatible)
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 17/03/2020
+  Added:
+    - ru-basic-substation (range 32, supply area 10x10[5], HP 125)

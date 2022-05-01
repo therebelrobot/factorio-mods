@@ -1,0 +1,70 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2021-05-08
+  Changes:
+    - updated autoplace for tenemut, generates similar to uranium
+  Additions:
+    - Setting to allow replicators in space, default false (SE)
+    - Setting to disable generation near spawn
+    - core fragment for SE
+  Bugfixes:
+    - changelog didn't load v_v
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2020-12-15
+  General:
+    - thanks chipgeekjr for the help with this one :P
+  Bugfixes:
+    - Missing prefixes for some bob and angel things
+    - Hopefully fixed the error with process icon whatever thing line 143
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020-12-04
+  General:
+    - 1.1 release, should be symmetric with 1.0.X updates until 1.1 is stable
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020-12-03
+  Bug Fixes:
+    - changed some of the icon generation (icons before icon)
+    - bio industries fertilizer names
+    - SE exclusion for the extra science packs
+---------------------------------------------------------------------------------------------------
+Version: 0.18.5
+Date: 2020-06-02
+  Bug Fixes:
+    - LOG PRINTS
+---------------------------------------------------------------------------------------------------
+Version: 0.18.4
+Date: 2020-06-02
+  Changes:
+    - make unique all DMR recipes/items/tech etc to prevent collisions with other mods
+        (may not have prevented *all* collision bugs, and still more work to do)
+---------------------------------------------------------------------------------------------------
+Version: 0.18.3
+Date: 2020-03-05
+  Bug Fixes:
+    - boolean precedence error (and is before or, not after) if using Angels without bobs
+
+---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+Date: 2020-03-05
+  General:
+    - Update icon sizes. They look right now
+
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 2020-03-04
+  General:
+    - initial Factorio 0.18+ release
+    - Port of Dark Matter Transmuters_R
+    - all credit to previous authors
+    - previous changes in changelog-previous.txt
+    - any compatibility patches probably require some re-work, post to discussions
+
+  Known Issues:
+    - recipe vs technology icons are interpreted differently (bug)?
+
+  Bug Fixes:
+    - change tenemut mining particle type to "optimized-particle"
+    - fix icon sizes in tenemut tab 

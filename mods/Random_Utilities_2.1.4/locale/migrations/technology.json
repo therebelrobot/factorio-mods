@@ -1,0 +1,10 @@
+{
+  "technology":
+  [
+    ["ru-basic-substation", "ru-basic-substation"],
+    ["ru-logistics-4", "ru-logistics-a"],
+    ["ru-logistics-5", "ru-logistics-b"],
+    ["ru-logistics-6", "ru-logistics-c"],
+    ["ru-logistics-7", "ru-logistics-d"]
+  ]
+}

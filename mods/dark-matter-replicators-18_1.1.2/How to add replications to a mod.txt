@@ -1,0 +1,59 @@
+If you are creating a mod and you want that mod to have replications when DMR is also enabled then you can follow these steps to do so.
+
+
+Step 1: Open your mod's info.json file and add
+
+"? dark-matter-replicators >= 0.7.13"
+
+(or whatever the most recent version of the DMR mod is at the time) to the dependencies list. This will let your mod use functions defined in the DMR mod.
+
+
+Step 2: Open your mod's data.lua file and add the following line to the end of it:
+
+if repl_table then require("prototypes.replication") end
+
+
+Step 3: Create a file named replication.lua in your mod's prototypes folder and add your replications to it.  There are five functions for creating replications:
+
+repltech_ore(item, mining_time, base_density, ? overrides, ? item_overrides, ? prerequisites)
+	A quick and easy way to add the replication of a new ore.  Item is a string and the ore's internal name.  The mining time and base density of the ore are used to calculate how much it costs to replicate that ore, with rarer ores costing more.  This won't work with ores which require fluids to mine.
+
+repltech_raw(item, cost, ? overrides, ? item_overrides, ? prerequisites)
+	Adds a tier 1 item with a specific cost.
+
+repltech_recipe(recipe_name, category, ? overrides, ? item_overrides)
+	Adds the first(?) product of a specific recipe.  Requires a specific category.  Some categories do not have default tiers, in which case you will need to give this repltech a tier via overrides.  The replication cost is based on the recipe used.
+
+repltech_item(item, category, cost, ? prerequisites, ? overrides, ? item_overrides)
+	Adds an item with a category and cost.
+
+repltech_item_table(item_table, category, ? prerequisites, ? overrides)
+	Adds multiple items.  This is so complicated to use that I haven't touched it since I created the repladd functions.
+
+Variables with a ? in front of them are optional.  A more complete guide would explain what overrides were but this guide isn't that finished yet.
+
+
+	If you create a new replication with the same name as the old one then that old replication will be overwritten.  However, there are three functions for modifying existing replications:
+
+repladd_recipe(repltech, recipe)
+	Like repltech_recipe, but it adds its item to an existing repltech instead of creating a new one.
+
+repladd_item(repltech, item, cost)
+	Self explanatory.
+
+replmod_category(repltech, category)
+	Changes the item category of a replication
+
+replmod_item(repltech, item, cost, ?item_overrides)
+	Adds a new item to an existing replication technology
+
+replmod_recipe(repltech, recipe_name, ?item_overrides)
+	Adds a new item to an existing replication technology using a recipe.  The specific item and its cost are both taken from the given recipe.
+
+
+	Finally, replication variables will be used for various purposes.  They have costs and nothing else.  If there is no item with a name then the replication variable with that same name can be used in its place (for cost calculation purposes only).
+
+replvar(name, cost)
+
+
+One last thing: If I have already included replications for items from one of your mods and you want to handle those replication recipes as part of your mod, send me a DM on the Factorio forums.  I can remove those items from the base DMR so there won't be any internal conflicts by you using the replication functions.

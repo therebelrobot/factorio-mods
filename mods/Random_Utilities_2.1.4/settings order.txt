@@ -1,0 +1,88 @@
+item:
+#    boiler                                        aa
+#    steam engine                                  ab
+    centrifuge                                    ac
+    nuclear reactor                               ad
+    heat boiler                                   ae
+    steam turbine                                 af
+#    solar panel                                   ag
+#    accumulator                                   ah
+#    substation                                    ai
+#    lamp                                          aj
+    assembler                                     ak
+#    beacon                                        al
+#    walkable beacon                               am
+#    Logistics                                     ana (n: a-c)
+#    Fluid handling                                anb (n: d-e)
+#    inserter                                      ao (o: a-c)
+    locomotive                                    ap
+    wagon                                         aq
+    fluid wagon                                   ar
+#    repair pack                                   as
+
+#    beacon productivity                           ba
+#    Disable Productivity Limitation               bb
+#    Behemoth Logistics Tweaks                     bc
+
+#    inventory size                                ca
+#    stack size                                    cb
+#    enable stack size on Contruction Robot        cc
+#    enable stack size on logistic Robot           cd
+#    reach distance                                ce
+#    mine distance                                 cf
+#    minining speed                                cg
+#    HP                                            ch
+#    HP recovery                                   cia
+#    Running speed                                 cib
+#    bot speed                                     cj
+#    no crafting time                              ck
+#    Better Cable Visibility                       cl
+#    wire shortcut                                 cm
+#    wire crafting                                 cn
+#DISABLED    alternativerecipe                     co
+#DISABLED    cheatyrecipe                          cp
+#    Assembler liquid Imput Output                 cq
+#    Assembling Machine Imput Output               cr
+#    Chemical Plant Imput Output                   cs
+#    Oil Refineries Imput Output                   ct
+#    mini equipment                                cu
+#    ru-force-chemical-fuel                        cv
+#    ru-force-equipment-categories                 cu
+
+#    small electric pole wire reach                 da
+#    small electric pole supply area                db
+#    medium electric pole wire reach                dc
+#    medium electric pole supply area               dd
+#    big electric pole wire reach                   de
+#    big electric pole supply area                  df
+#    vanilla substation wire reach                  dg
+#    vanilla substation supply area                 dh
+
+#    Quick Start                                    ea
+#    Quick Start Modular Armor                      eb
+#    Quick Start Spidetron                          ac
+#    Quick Start Train technology                   ed
+#    Quick Start Robot technology                   ee
+
+#    space exploration integration                  fa
+#    ru-angel-integrations                          fb
+#    ru-bob-integrations                            fc
+#    ru-krastorio2-integrations                     fd
+#    ru-LiquifyScienceandLab-integrations           fe
+
+#    angel warehouse                                ga
+#    angel logistic warehouse                       gb
+#    krastorio2 medium container                    gc
+#    krastorio2 medium logistic container           gd
+#    krastorio2 big container                       ge
+#    krastorio2 big logistic container              gf
+#    Juicy Mods big generic chest                   gg
+#    Juicy Mods big logistic chest                  gh
+#    Juicy Mods big generic warehouse               gi
+#    Juicy Mods big logistic warehouse              gj
+
+#    angel pressuretank                             ha
+#    krastorio2 big fluid storage                   hb
+#    krastorio2 huge fluid storage                  hc
+#    Juicy Mods fs 50                               hd
+#    Juicy Mods fs 200                              he
