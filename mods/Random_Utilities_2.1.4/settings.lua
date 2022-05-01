@@ -100,7 +100,7 @@ data:extend({
       "basic",
       "medium",
       "big",
---      "behemoth"
+      "behemoth"
     },
   },
   --beacon OK

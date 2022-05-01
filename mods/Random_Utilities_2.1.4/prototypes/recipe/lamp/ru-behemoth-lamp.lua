@@ -14,7 +14,7 @@ data:extend(
       {"ru-medium-lamp", 1},
       {"steel-plate", 4},
     },
-    result = "ru-big-lamp"
+    result = "ru-behemoth-lamp"
   },
 })
 

@@ -322,6 +322,10 @@ if settings.startup["ru-lamp"].value == "basic" or settings.startup["ru-walkable
     if settings.startup["ru-lamp"].value == "big" then
       data.raw["recipe"]["ru-big-lamp"].hidden = false
       data.raw["technology"]["ru-big-lamp"].hidden = false
+      if settings.startup["ru-lamp"].value == "big" then
+        data.raw["recipe"]["ru-behemoth-lamp"].hidden = false
+        data.raw["technology"]["ru-behemoth-lamp"].hidden = false
+      end
     end
   end
 end

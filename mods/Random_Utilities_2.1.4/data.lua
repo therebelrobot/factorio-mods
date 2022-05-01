@@ -82,6 +82,11 @@ require "__Random_Utilities__.prototypes.item.lamp.ru-big-lamp"
 require "__Random_Utilities__.prototypes.entity.lamp.ru-big-lamp"
 require "__Random_Utilities__.prototypes.recipe.lamp.ru-big-lamp"
 require "__Random_Utilities__.prototypes.technology.lamp.ru-big-lamp"
+--behemoth lamp
+require "__Random_Utilities__.prototypes.item.lamp.ru-behemoth-lamp"
+require "__Random_Utilities__.prototypes.entity.lamp.ru-behemoth-lamp"
+require "__Random_Utilities__.prototypes.recipe.lamp.ru-behemoth-lamp"
+require "__Random_Utilities__.prototypes.technology.lamp.ru-behemoth-lamp"
 --basic beacon
 require "__Random_Utilities__.prototypes.item.beacon.ru-basic-beacon"
 require "__Random_Utilities__.prototypes.entity.beacon.ru-basic-beacon"
