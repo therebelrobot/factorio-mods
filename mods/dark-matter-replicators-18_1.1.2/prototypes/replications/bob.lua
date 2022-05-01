@@ -352,6 +352,10 @@ if bobmods.logistics then
 	repltech_recipe("flying-robot-frame-2", "device4", {upgrade = true})
 	repltech_recipe("flying-robot-frame-3", "device5", {upgrade = true})
 	repltech_recipe("flying-robot-frame-4", "device5", {upgrade = true})
+
+	repltech_recipe("basic-transport-belt", "device3")
+	repltech_recipe("turbo-transport-belt", "device3", {upgrade = true})
+	repltech_recipe("ultimate-transport-belt", "device3", {upgrade = true})
 	
 	if bobmods.warfare and bobmods.warfare.RobotParts then
 		--Robot brains

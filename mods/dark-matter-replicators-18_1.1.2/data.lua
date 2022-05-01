@@ -39,6 +39,8 @@ if data.raw.item["bi_bio_farm"] then
 	require("prototypes.replications.bio")
 end
 
+require("prototypes.replications.random-utilities")
+
 
 if mods["space-exploration"] then
 	se_prodecural_tech_exclusions = se_prodecural_tech_exclusions or {}

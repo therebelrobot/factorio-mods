@@ -434,3 +434,5 @@ end
 if not appmod.blacklist then
   appmod.blacklist = {}
 end
+
+if repl_table then require("prototypes.replication") end

@@ -14,6 +14,7 @@
     "?angelsaddons-pressuretanks",
     "?Krastorio2",
     "?space-exploration",
-    "?miniloader >= 1.12.3"
+    "?miniloader >= 1.12.3",
+    "? dark-matter-replicators >= 1.1.2"
   ]
 }
