@@ -24,6 +24,9 @@ repltech_recipe("catalyst-metal-green", "device2")
 repltech_recipe("catalyst-metal-blue", "device2")
 repltech_recipe("catalyst-metal-yellow", "device2")
 
+--Fish
+repladd_item("alien-fish-1-raw", "device2")
+
 --Rocket fuel calculation variables (This is a bad solution but I haven't thought of a better one yet.)
 replvar("rocket-fuel-capsule", "chemical")
 replvar("rocket-oxidizer-capsule")
