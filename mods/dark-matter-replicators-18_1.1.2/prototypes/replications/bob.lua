@@ -378,6 +378,7 @@ if bobmods.logistics then
 
 	repltech_raw("crystal-powder", 0.01)
 	repltech_raw("micro-assembler-6", 0.01)
+	repltech_raw("rtg", 0.01)
 
 		
 	--Fish
