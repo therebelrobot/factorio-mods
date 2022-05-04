@@ -374,6 +374,7 @@ if bobmods.logistics then
 	repltech_recipe("speed-module-8", "device3")
 	repltech_recipe("micro-assembler-6", "device3")
 	repltech_raw("alien-goo", 0.02)
+	repltech_raw("crystal-slurry", 0.05)
 
 	repltech_recipe("micro-assembler-6", "device3")
 	repltech_recipe("micro-assembler-6", "device3")
